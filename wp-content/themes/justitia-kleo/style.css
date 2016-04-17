@@ -12,11 +12,11 @@
  Text Domain:  justitia
 */
 
-/*#bbp_search {*/
-	/*width: 80%;*/
-	/*display: inline-block;*/
-/*}*/
+.j-custom-search #bbp_search {
+	width: 80%;
+	display: inline-block;
+}
 
-/*.j-hide-search-form .bbp-search-form {*/
-	/*display: none;*/
-/*}*/
+.j-hide-search-form .bbp-search-form {
+	display: none;
+}
