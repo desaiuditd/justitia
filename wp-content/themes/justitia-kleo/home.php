@@ -26,7 +26,7 @@ get_header();
 
 	<br /><br />
 	<h3>Recent Stories</h3>
-	<div class="j-hide-search-form">
+	<div class="">
 		<?php echo do_shortcode( '[bbp-topic-index]' ); ?>
 	</div>
 </article>
