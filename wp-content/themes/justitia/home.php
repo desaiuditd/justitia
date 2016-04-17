@@ -19,9 +19,15 @@ $rtp_content_class = ' rtp-content-section ' . $rtp_content_grid_class . ' rtp-b
 
 			<?php echo do_shortcode('[bbp-search-form]'); ?>
 
-			<?php if (is_user_logged_in()) { ?>
+			<h3>Story Tags</h3>
+			<?php echo do_shortcode( '[bbp-topic-tags]' ); ?>
 
-			<?php } ?>
+			<br /><br />
+			<h3>Recent Stories</h3>
+			<div class="j-hide-search-form">
+				<?php echo do_shortcode( '[bbp-topic-index]' ); ?>
+			</div>
+
 		</article>
 
 		<?php rtp_hook_end_content(); ?>
