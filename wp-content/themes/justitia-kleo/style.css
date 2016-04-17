@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Justitia - Kleo child theme
+ Theme URI:    http://blog.incognitech.in
+ Description:  Theme for Justitia
+ Author:       Udit Desai
+ Author URI:   http://blog.incognitech.in
+ Template:     kleo
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  justitia
+*/
+
+/*#bbp_search {*/
+	/*width: 80%;*/
+	/*display: inline-block;*/
+/*}*/
+
+/*.j-hide-search-form .bbp-search-form {*/
+	/*display: none;*/
+/*}*/
