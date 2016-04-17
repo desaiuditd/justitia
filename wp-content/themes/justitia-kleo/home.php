@@ -9,7 +9,7 @@ get_header();
 
 ?>
 
-<?php get_template_part('page-parts/general-title-section'); ?>
+<?php //get_template_part('page-parts/general-title-section'); ?>
 
 <?php get_template_part('page-parts/general-before-wrap'); ?>
 
@@ -17,9 +17,9 @@ get_header();
 
 	<!-- Begin Article -->
 <article <?php post_class($extra_classes); ?>>
-	<div class="j-custom-search">
-		<?php echo do_shortcode('[bbp-search-form]'); ?>
-	</div>
+<!--	<div class="j-custom-search">-->
+<!--		--><?php //echo do_shortcode('[bbp-search-form]'); ?>
+<!--	</div>-->
 
 	<h3>Story Tags</h3>
 	<?php echo do_shortcode( '[bbp-topic-tags]' ); ?>
