@@ -16,3 +16,8 @@
 	width: 80%;
 	display: inline-block;
 }
+
+.rtp-header-image {
+	width: 100%;
+	height: 300px;
+}
